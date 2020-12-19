@@ -1,0 +1,76 @@
+/********** BASE STYLES ***********/
+
+body {
+  background-color: #E8E8E8;
+}
+
+#vision-board {
+  height: 850px;
+  width: 1200px;
+  overflow: auto;
+  background: url('../img/background.png');
+	background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #000000;
+  text-transform: uppercase;
+  margin: auto;
+}
+
+.block {
+  float: left;
+  width: 400px;
+  box-sizing: border-box;
+}
+
+.small-block {
+  height: 210px;
+  padding: 20px 40px 20px 40px;
+}
+
+.large-block {
+  height: 430px;
+  padding: 40px;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.light-bg {
+  background-color: #FFFFFF;
+}
+
+.dark-bg {
+  background-color: #3B3B3B;
+}
+
+strong {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 38px;
+  font-weight: bold;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+.marker {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+.highlight {
+  background: #FFF44F;
+  padding: 5px 15px;
+  font-size: 18px;
+}
